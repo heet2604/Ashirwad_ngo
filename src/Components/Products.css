@@ -1,22 +1,113 @@
+/* Products Section */
 .products {
-  padding: 4rem 0; /* Adjust padding as needed */
+  padding: 4rem 0;
   text-align: center;
-  margin: 386px auto;
-  background-color: white;
+  max-width: 1200px;
+  margin: 60px auto;
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
+/* Header */
 .products-header {
-  margin-bottom: 2rem; /* Add spacing below the header */
+  margin-bottom: 3rem;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #e0e0e0;
 }
 
 .products-header h1 {
-  font-size: 3rem; /* Adjust font size as needed */
-  margin-bottom: 1rem; /* Add spacing below the title */
-  color: #666;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .products-header p {
   font-size: 1.2rem;
-  color: #666; /* Adjust color as needed */
-  text-align: center;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Product Cards */
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.product-card .product-price {
+  font-size: 1.2rem;
+  color: #ff7e5f;
+  font-weight: bold;
+}
+
+.product-card .btn-buy {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background-color: #ff7e5f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .btn-buy:hover {
+  background-color: #feb47b;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .product-cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .products-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .products-header p {
+    font-size: 1.1rem;
+  }
 }
