@@ -1,13 +1,3 @@
-Ashirwad Old Age Home Website
-Welcome to the official website for Ashirwad Old Age Home. This site highlights Ashirwad's commitment to simple living and the value of products crafted by its residents. Our goal is to create a warm, user-friendly platform where visitors can learn more about the peaceful environment, services, and self-made products offered at Ashirwad.
+Ashirwad Old Age Home Home – Welcome to Ashirwad Old Age Home – the official website of Ashirwad Old Age Home. This site emphasizes on an aesthetic lifestyle in Ashirwad and the usefulness of products made by people in this place. The purpose of this site is to provide comfort and information to the visitors regarding the quiet atmosphere, services rendered and homemade products of Ashirwad.
 
-Features
-About Us: Share Ashirwad's story, mission, and values.
-Self-Made Products: Showcase handmade items crafted by residents.
-Community and Services: Information on activities, healthcare, and support available for residents.
-Contact and Support: Enable visitors to connect with and support Ashirwad.
-Tech Stack
-HTML: Structure and content of the website.
-CSS: Styling to ensure a visually appealing and responsive layout.
-JavaScript: Adding interactivity to enhance the user experience.
-Node.js: Backend server for handling form submissions, contact information, and product inquiries, making the website dynamic and scalable.
+Features About Us: Communicate Ashirwad’s purpose, and core beliefs. Self-Made Products: Display arts and crafts that residents have made themselves. Community and Services: All details about what is going on in the particular district, medical facilities and other assistance for inhabitants. Contact and Support: Allow the ashirwad visitors to not only reach out to them but also be in a positioin to support them. Tech Stack HTML: External appearance of the web site and the material published on it. CSS: Cascading style sheets to make the layout of the Documents: neat and user friendly. JavaScript: Introducing interactivity to support the usability of the Multimedia element. Node.js: A form that would handle the submissions and customer details and inquiries would be incorporated to enable the revelation of the website as fashionable and more elastic to accommodate the growing number of products to be displayed.
