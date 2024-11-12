@@ -45,7 +45,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={product3}
-              text='Every purchase sustains the simple, dignified lives of Ashirwad's artisans.'
+              text='Every purchase sustains the simple, dignified lives of the experienced artisans.'
               label='preminum quality'
               
             />
