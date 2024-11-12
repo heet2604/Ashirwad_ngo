@@ -31,13 +31,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={product1}
-              text='Explore the bliss of naturally made dhoop'
+              text='Explore the bliss of naturally made dhoop and loban and connect to the nature with us'
               label='preminum quality'
              
             />
             <CardItem
               src={product2}
-              text='We self sustain through these'
+              text='Handmade by Ashirwad residents, each purchase supports their self-reliance and sustainable living'
               label='preminum quality'
             
             />
@@ -45,7 +45,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={product3}
-              text='Contact us to try these '
+              text='Every purchase sustains the simple, dignified lives of Ashirwad's artisans.'
               label='preminum quality'
               
             />
